@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <TodoForm> the snapshot should match 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    deleteTodo={[Function]}
+    getTodos={[Function]}
+    setCurrentTodo={[Function]}
+    todosQuery={
+      Object {
+        "loading": false,
+        "todos": Array [
+          Object {
+            "id": "35434tergdfg",
+            "text": "test",
+          },
+          Object {
+            "id": "35434tergdfgyrt",
+            "text": "test 2",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Todo List
+        </h1>,
+        <div
+          className="todo-list"
+        >
+          <Unknown
+            deleteTodo={[Function]}
+            id="35434tergdfg"
+            text="test"
+          />
+          <Unknown
+            deleteTodo={[Function]}
+            id="35434tergdfgyrt"
+            text="test 2"
+          />
+        </div>,
+        <Link
+          className="add-button"
+          replace={false}
+          to="/new"
+        >
+          +
+        </Link>,
+      ],
+      "className": "todo-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Todo List",
+        },
+        "ref": null,
+        "rendered": "Todo List",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              deleteTodo={[Function]}
+              id="35434tergdfg"
+              text="test"
+            />,
+            <Unknown
+              deleteTodo={[Function]}
+              id="35434tergdfgyrt"
+              text="test 2"
+            />,
+          ],
+          "className": "todo-list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "deleteTodo": [Function],
+              "id": "35434tergdfg",
+              "text": "test",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "deleteTodo": [Function],
+              "id": "35434tergdfgyrt",
+              "text": "test 2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "+",
+          "className": "add-button",
+          "replace": false,
+          "to": "/new",
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Todo List
+          </h1>,
+          <div
+            className="todo-list"
+          >
+            <Unknown
+              deleteTodo={[Function]}
+              id="35434tergdfg"
+              text="test"
+            />
+            <Unknown
+              deleteTodo={[Function]}
+              id="35434tergdfgyrt"
+              text="test 2"
+            />
+          </div>,
+          <Link
+            className="add-button"
+            replace={false}
+            to="/new"
+          >
+            +
+          </Link>,
+        ],
+        "className": "todo-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Todo List",
+          },
+          "ref": null,
+          "rendered": "Todo List",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                deleteTodo={[Function]}
+                id="35434tergdfg"
+                text="test"
+              />,
+              <Unknown
+                deleteTodo={[Function]}
+                id="35434tergdfgyrt"
+                text="test 2"
+              />,
+            ],
+            "className": "todo-list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "deleteTodo": [Function],
+                "id": "35434tergdfg",
+                "text": "test",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "deleteTodo": [Function],
+                "id": "35434tergdfgyrt",
+                "text": "test 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "+",
+            "className": "add-button",
+            "replace": false,
+            "to": "/new",
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
