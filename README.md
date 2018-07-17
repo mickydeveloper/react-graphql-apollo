@@ -3,17 +3,8 @@ Feel free to create Pull Requests for changes or optimazation for this boiler pl
 
 The idea behind the containers and components is inspired by the article: https://medium.freecodecamp.org/understanding-higher-order-components-6ce359d761b
 
-# To run the local api make sure to install cosmosdb emulator
-https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator
-
-If you get a port error try to:
-run it in the console with a port flag like so:
-
-`cd C:\Program Files\Azure Cosmos DB\`
-
-`CosmosDB.Emulator.exe /Port=8000 (example port)`
-
-**To open the database explorer righclick on the cosmos db icon and select "Open data Explorer"**
+# To run the local api make sure to install mongodb
+https://www.mongodb.com/download-center?jmp=nav#community
 
 to run the api: 
 `npm run api`
@@ -21,12 +12,6 @@ to run the api:
 to see the api documentation and run the queries:
 http://localhost:4000/graphiql
 
-Api is using apollo engine remember to get your own api key:
-https://engine.apollographql.com/login
-
-const engine = new ApolloEngine({
-  apiKey: 'YOUR_API_KEY'
-});
 
 # To run the project
 Make sure you have the newest version of node intalled
