@@ -1,4 +1,4 @@
-# EDC React Redux TypeScript boiler plate
+# Graphql Apollo TypeScript boiler plate
 Feel free to create Pull Requests for changes or optimazation for this boiler plate 
 
 The idea behind the containers and components is inspired by the article: https://medium.freecodecamp.org/understanding-higher-order-components-6ce359d761b
